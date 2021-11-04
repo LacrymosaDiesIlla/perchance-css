@@ -1,0 +1,91 @@
+body {
+  background-color: #000;
+  font-family: Garamond, serif;
+  color: #fff;
+}
+h1 {
+  color: #a52423;
+  margin-top: 0;
+  letter-spacing: 5px;
+}
+#numInput {
+  border: 4px inset #ff1515;
+  border-radius: 5px;
+  padding: 2px 6px;
+}
+#characterOutput {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+#button {
+  background-color: #a52423;
+  display: inline-block;
+  text-shadow: -1px -1px #000;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 4px inset #ff1515;
+  cursor: pointer;
+}
+#filterButton {
+  background-color: #D91A1A;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 2px;
+  margin: 20px 15%;
+  border: 4px solid #ff1515;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#filters {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 0 25% 25px 25%;
+}
+h3 {
+  font-size: 16px;
+  padding-bottom: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #a52423;
+}
+.check {
+  display: inline-flex;
+  cursor: pointer;
+  position: relative;
+}
+.check > input {
+  height: 14px;
+  width: 14px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 1px solid #730202;
+  border-radius: 4px;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.check > input:checked {
+  border: 1px solid #730202;
+  background-color: #D91A1A;
+}
+.check > input:checked + span::before {
+  content: '\2714';
+  display: block;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  left: 0.13rem;
+  top: 0;
+}
+.check > input:active {
+  border: 2px solid #34495E;
+}
