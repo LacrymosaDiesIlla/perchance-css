@@ -1,0 +1,8 @@
+.dice {
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.dice:hover {
+  opacity: .6;
+}
