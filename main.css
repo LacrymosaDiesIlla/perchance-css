@@ -2,11 +2,13 @@ body {
       margin-left: 5%;
       margin-right: 5%;
     }
+
 header {
       text-align: left;
       font-family: serif;
       font-variant: small-caps;
 }
+
 h1 {
       font-size: 30px;
       margin-bottom: 10px;
@@ -14,6 +16,13 @@ h1 {
       border-bottom: 3px solid #9C139A;
       letter-spacing: 3px;
 }
+
+h2 {
+     color: #9C139A;
+     font-size: 22px;
+     margin-bottom: 10px;
+}
+
 .button {
       background-color: #64CCF6;
       color: #fff;
@@ -26,14 +35,17 @@ h1 {
       padding: 4px 10px;
       cursor: pointer;
 }
+
 .button:hover {
       background-color: #0E79B2;
 }
+
 main {
       text-align: left;
       margin-left: 3%;
       font-family: serif;
 }
+
 b {
       color: #4F0663;
       font-family: sans-serif;
