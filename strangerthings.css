@@ -12,6 +12,7 @@ h1 {
   border: 4px inset #ff1515;
   border-radius: 5px;
   padding: 2px 6px;
+  color: #000;
 }
 #characterOutput {
   font-size: 16px;
