@@ -63,3 +63,18 @@ b {
     margin-left: 3%;
     font-size: 76%;
 }
+
+dt {
+    display: inline-block;
+    font-weight: bold;
+    color: #4F0663;
+    font-family: sans-serif;
+}
+
+dt::after {
+    content: ": ";
+}
+
+dd {
+    display: inline-block;
+}
